@@ -1,0 +1,7 @@
+# إجبار GitHub على اعتبار هذه الملفات والمجلدات من نوع "بائع" أو "مولّد" وتجاهلها في الإحصائيات
+windows/ linguist-vendored
+linux/ linguist-vendored
+macos/ linguist-vendored
+*.h linguist-detectable=false
+*.cpp linguist-detectable=false
+CMakeLists.txt linguist-detectable=false
